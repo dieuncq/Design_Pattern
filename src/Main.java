@@ -1,4 +1,4 @@
-import DataAccessObject.DataAccessObject_Exercise;
+import DataAccessObject.*;
 import Singleton.*;
 import Prototype.*;
 import Factory.*;
@@ -7,11 +7,11 @@ import DependencyInjection.*;
 
 public class Main {
     public static void main(String[] args) {
-        new Singleton_Exercise().Exercise();
-        new Prototype_Exercise().Exercise();
-        new Factory_Exercise().Exercise();
-        new Builder_Exercise().Exercise();
-        new DependencyInjection_Exercise().Exercise();
-        new DataAccessObject_Exercise().Exercise();
+        Singleton_Exercise.Exercise();
+        Prototype_Exercise.Exercise();
+        Factory_Exercise.Exercise();
+        Builder_Exercise.Exercise();
+        DependencyInjection_Exercise.Exercise();
+        DataAccessObject_Exercise.Exercise();
     }
 }
